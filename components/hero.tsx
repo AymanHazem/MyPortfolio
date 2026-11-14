@@ -1,7 +1,7 @@
 "use client"
 
-import { useEffect, useState } from "react"
-import { Github } from "lucide-react"
+import {useEffect, useState} from "react"
+import {Github} from "lucide-react"
 
 export default function Hero() {
   const [displayText, setDisplayText] = useState("")

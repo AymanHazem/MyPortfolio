@@ -1,6 +1,6 @@
 "use client"
-import { useState } from "react"
-import { Github } from "lucide-react"
+import {useState} from "react"
+import {Github} from "lucide-react"
 
 export default function Contact() {
   const [hoveredButton, setHoveredButton] = useState<string | null>(null)

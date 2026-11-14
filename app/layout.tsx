@@ -1,6 +1,6 @@
 import type React from "react"
-import { JetBrains_Mono, Inter } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
+import {Inter, JetBrains_Mono} from "next/font/google"
+import {Analytics} from "@vercel/analytics/next"
 import "./globals.css"
 
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono" })
